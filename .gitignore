@@ -79,3 +79,9 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+
+Database/
+ModelSupport_i2V
+out/
+Win64/
+
