@@ -84,4 +84,5 @@ Database/
 ModelSupport_i2V
 out/
 Win64/
-
+LibrarySupport/
+i18n/
