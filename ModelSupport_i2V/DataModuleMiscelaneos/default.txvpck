@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="y5oy7pp33dh_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.FDConnection1" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.FDPhysFBDriverLink1" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.DSMiscelaneoTipo" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.MiscelaneoTipoTable" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.MiscelaneoMarcaTable" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.DSMiscelaneoMarca" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.MiscelaneoModeloTable" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.DSMiscelaneoModelo" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.MiscelaneoTable" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.DSMiscelaneo" />
+      <reference referencedUin="delphi:e_method:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.MiscelaneoTipoTableBeforeDelete(Data.DB.TDataSet)" />
+      <reference referencedUin="delphi:e_method:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.MiscelaneoMarcaTableBeforeDelete(Data.DB.TDataSet)" />
+      <reference referencedUin="delphi:e_method:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.MiscelaneoModeloTableBeforeDelete(Data.DB.TDataSet)" />
+      <reference referencedUin="delphi:e_method:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.MiscelaneoTableBeforeDelete(Data.DB.TDataSet)" />
+      <reference referencedUin="delphi:e_method:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.connectDB()" />
+      <reference referencedUin="delphi:e_method:src:i2V:DataModuleMiscelaneos.TDMMiscelaneos.disconnectDB()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:i2V:DataModuleMiscelaneos.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleMiscelaneos.@unitclass.DMMiscelaneos" />
+      <reference referencedUin="delphi:l_ast:src:i2V:DataModuleMiscelaneos.@unitclass.DMMiscelaneos" />
+    </reference>
+  </view>
+</nodeSet>

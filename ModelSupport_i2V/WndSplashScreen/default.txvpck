@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="3l88ep9kz5n_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:i2V:WndSplashScreen.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndSplashScreen.@unitclass.SplashForm" />
+      <reference referencedUin="delphi:l_ast:src:i2V:WndSplashScreen.@unitclass.SplashForm" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:i2V:WndSplashScreen.TSplashForm">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndSplashScreen.TSplashForm.Image1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndSplashScreen.TSplashForm.Label2" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndSplashScreen.TSplashForm.Timer1" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndSplashScreen.TSplashForm.Timer1Timer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndSplashScreen.TSplashForm.Image1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndSplashScreen.TSplashForm.Label1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndSplashScreen.TSplashForm.Label8Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndSplashScreen.TSplashForm.Label2Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndSplashScreen.TSplashForm.Label3Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndSplashScreen.TSplashForm.Shape1MouseUp(System.TObject,System.UITypes.TMouseButton,TShiftState,System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndSplashScreen.TSplashForm.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndSplashScreen.TSplashForm.FormClose(System.TObject,ref@System.UITypes.TCloseAction)" />
+    </reference>
+  </view>
+</nodeSet>

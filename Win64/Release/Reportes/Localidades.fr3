@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="2023.3.4" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45478.4760187963" ReportOptions.Description.Text="" ReportOptions.LastChange="45478.7772754861" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBDataset1" DataSetName="frxDBDataset1"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" HGuides.Text="" VGuides.Text="" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" HGuides.Text="" VGuides.Text="" PaperWidth="215.9" PaperHeight="279.4" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" DataSet="FrmMunicipios.frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" MirrorMode="0">
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="22.67718" Left="0" Top="272.12616" Width="740.409927">
+      <TfrxMemoView Name="Date" IndexTag="1" AllowVectorExport="True" Left="529.1342" Top="3.77953" Width="79.37013" Height="18.89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" Frame.Typ="0" Text="[Date]"/>
+      <TfrxMemoView Name="Time" IndexTag="1" AllowVectorExport="True" Left="616.06339" Top="3.77953" Width="120.94496" Height="18.89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" Frame.Typ="0" Text="[Time]"/>
+      <TfrxMemoView Name="Memo3" Align="baCenter" AllowVectorExport="True" Left="305.952945689688" Top="5.70000000005E-7" Width="128.50402073" Height="18.89764404" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" AutoWidth="True" Frame.Typ="0" Text="Pág. [&#60;Page#&#62;] de [TotalPages#]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="63.4724764" Left="0" Top="64.25201" Width="740.409927">
+      <TfrxMemoView Name="Memo1" AllowVectorExport="True" Left="600.9452691" Top="0" Width="132.2835473" Height="18.89765206" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" Frame.Typ="0" Text="RTSoftware i2V 2024"/>
+      <TfrxMemoView Name="Memo4" AllowVectorExport="True" Left="1E-7" Top="44.57483236" Width="41.57482978" Height="18.89764404" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="CVE"/>
+      <TfrxMemoView Name="Memo5" AllowVectorExport="True" Left="45.35436155" Top="44.57483236" Width="257.00804073" Height="18.89764404" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="NOMBRE DEL MUNICIPIO"/>
+      <TfrxMemoView Name="Memo6" AllowVectorExport="True" Left="306.14192028" Top="45.35435902" Width="56.69295073" Height="18.89764404" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="CVE"/>
+      <TfrxMemoView Name="Memo7" AllowVectorExport="True" Left="381.73254395" Top="45.35435902" Width="94.48825073" Height="18.89764404" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="LOCALIDAD"/>
+    </TfrxPageHeader>
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="22.67718" Left="0" Top="18.89765" Width="740.409927">
+      <TfrxMemoView Name="Memo2" Align="baCenter" AllowVectorExport="True" Left="317.291535689688" Top="-2.30000000000369E-7" Width="105.82684073" Height="18.89764977" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" AutoWidth="True" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="LOCALIDADES"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="22.67718" Left="0" Top="188.9765" Width="740.409927" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="frxDBDataset1MUNICIPIO" IndexTag="1" AllowVectorExport="True" Left="45.35436" Top="0" Width="257.00804" Height="18.89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="MUNICIPIO" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" SuppressRepeated="True" Text="[frxDBDataset1.&#34;MUNICIPIO&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1NOMBRE" IndexTag="1" AllowVectorExport="True" Left="381.73253" Top="0" Width="355.27582" Height="18.89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="NOMBRE" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" Text="[frxDBDataset1.&#34;NOMBRE&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1MUNICIPIO_ID" IndexTag="1" AllowVectorExport="True" Left="0" Top="0" Width="41.57483" Height="18.89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="MUNICIPIO_ID" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" SuppressRepeated="True" Text="[frxDBDataset1.&#34;MUNICIPIO_ID&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1ID" IndexTag="1" AllowVectorExport="True" Left="306.14193" Top="0" Width="71.81107" Height="18.89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="ID" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" Text="[frxDBDataset1.&#34;ID&#34;]"/>
+      <TfrxLineView Name="Line1" AllowVectorExport="True" Left="298.58287" Top="22.67717812" Width="438.42549215" Height="0" Color="0" Frame.Typ="4"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>

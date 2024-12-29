@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="z22lzqco8p_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:i2V:WndPmi2.TFrmPmi2">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.PageControl1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.TabSheet1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.Panel5" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.DBGrid1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.PopupMenu1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.PopupMenu11" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.Panel1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.Panel2" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.DBLookupListBox1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.Label1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.Panel3" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.Label2" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.DBLookupListBox2" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.Panel4" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.Label3" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.txtBuscar" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.BtnBuscar" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.Splitter1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.FDQueryPmi" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.TFrmPmi2.DSPmi" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndPmi2.TFrmPmi2.DBLookupListBox2Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndPmi2.TFrmPmi2.DBLookupListBox1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndPmi2.TFrmPmi2.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndPmi2.TFrmPmi2.BtnBuscarClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndPmi2.TFrmPmi2.DBGrid1CellClick(Vcl.DBGrids.TColumn)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndPmi2.TFrmPmi2.DBGrid1DblClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndPmi2.TFrmPmi2.FormClose(System.TObject,ref@System.UITypes.TCloseAction)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:i2V:WndPmi2.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndPmi2.@unitclass.FrmPmi2" />
+      <reference referencedUin="delphi:l_ast:src:i2V:WndPmi2.@unitclass.FrmPmi2" />
+    </reference>
+  </view>
+</nodeSet>

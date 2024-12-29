@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="ln487211j9r_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:i2V:WndMain.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.@unitclass.FrmMain" />
+      <reference referencedUin="delphi:l_ast:src:i2V:WndMain.@unitclass.FrmMain" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:i2V:WndMain.TFrmMain">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.Ribbon1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.RibbonPage1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionManager1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.RibbonApplicationMenuBar1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.FileExit1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.RibbonGroup1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionCatalogoArcos" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.RibbonPage2" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.RibbonGroup2" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.RibbonGroup3" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.RibbonGroup4" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionCatalogoCamaras" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionCatalogoSwitches" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionCatalogoGabinetes" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionCatalogoRadios" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionCatalogoPostes" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionCatalogoMiscelaneos" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ImageList1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.WindowClose1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.WindowCascade1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.WindowTileHorizontal1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.WindowTileVertical1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.WindowMinimizeAll1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.WindowArrange1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionCatalogoPmi" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.RibbonGroup6" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionCatalogoColores" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionCatalogoProveedores" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionCatalogoLocalidades" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionCatalogoMunicipios" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.RibbonGroup5" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionMonitoreoPmi" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionMonitoreoArco" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.RibbonGroup7" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionValidarCamaras" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMain.TFrmMain.ActionAcercaDe" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionCatalogoArcosExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionCatalogoCamarasExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionCatalogoSwitchesExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionCatalogoGabinetesExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionCatalogoRadiosExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionCatalogoPostesExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionCatalogoMiscelaneosExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionCatalogoPmiExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionCatalogoColoresExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionCatalogoProveedoresExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionCatalogoMunicipiosExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionCatalogoLocalidadesExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionMonitoreoPmiExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionValidarCamarasExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMain.TFrmMain.ActionAcercaDeExecute(System.TObject)" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="6f62f310a9s_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Panel1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Panel2" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Button1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Button2" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Panel3" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.DBGrid1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.StatusBar1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Panel4" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Label1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Label2" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Edit1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.ComboBox1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.BtnLimpiar" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Splitter1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.FDQuery1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.DataSource1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.FDQuery2" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.FDPhysFBDriverLink1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.FDConnection1" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Button1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Button2Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Edit1Change(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.FormClose(System.TObject,ref@System.UITypes.TCloseAction)" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.FPadre" />
+      <reference referencedUin="delphi:e_property:src:i2V:WndNuevoPmiCamaras.TNuevoPmiCamaras.Padre" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:i2V:WndNuevoPmiCamaras.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndNuevoPmiCamaras.@unitclass.NuevoPmiCamaras" />
+      <reference referencedUin="delphi:l_ast:src:i2V:WndNuevoPmiCamaras.@unitclass.NuevoPmiCamaras" />
+    </reference>
+  </view>
+</nodeSet>

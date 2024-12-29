@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="2023.3.4" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45480.3772384144" ReportOptions.Description.Text="" ReportOptions.LastChange="45480.3800391782" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBDataset1" DataSetName="frxPMI"/>
+    <item DataSet="frxDBDataset2" DataSetName="frxPMI_SWITCH"/>
+    <item DataSet="frxDBDataset3" DataSetName="frxSWITCH"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" HGuides.Text="" VGuides.Text="" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" HGuides.Text="" VGuides.Text="" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="94.48825" Left="0" Top="18.89765" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxPMI" RowCount="0">
+      <TfrxMemoView Name="frxPMIID" IndexTag="1" AllowVectorExport="True" Left="22.67718" Top="18.89765" Width="158.74026" Height="18.89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="ID" DataSet="frxDBDataset1" DataSetName="frxPMI" Frame.Typ="0" Text="[frxPMI.&#34;ID&#34;]"/>
+      <TfrxMemoView Name="frxPMIDOMICILIO" IndexTag="1" AllowVectorExport="True" Left="188.9765" Top="18.89765" Width="400.63018" Height="18.89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="DOMICILIO" DataSet="frxDBDataset1" DataSetName="frxPMI" Frame.Typ="0" Text="[frxPMI.&#34;DOMICILIO&#34;]"/>
+      <TfrxMemoView Name="frxPMILONGITUD" IndexTag="1" AllowVectorExport="True" Left="22.67718" Top="49.13389" Width="79.37013" Height="18.89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="LONGITUD" DataSet="frxDBDataset1" DataSetName="frxPMI" Frame.Typ="0" Text="[frxPMI.&#34;LONGITUD&#34;]"/>
+      <TfrxMemoView Name="frxPMILATITUD" IndexTag="1" AllowVectorExport="True" Left="22.67718" Top="68.03154" Width="79.37013" Height="18.89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="LATITUD" DataSet="frxDBDataset1" DataSetName="frxPMI" Frame.Typ="0" Text="[frxPMI.&#34;LATITUD&#34;]"/>
+    </TfrxMasterData>
+    <TfrxDetailData Name="DetailData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="34.01577" Left="0" Top="136.06308" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset2" DataSetName="frxPMI_SWITCH" RowCount="0">
+      <TfrxMemoView Name="frxPMI_SWITCHSWITCH" IndexTag="1" AllowVectorExport="True" Left="22.67718" Top="7.55906" Width="238.11039" Height="18.89765" DataField="SWITCH" DataSet="frxDBDataset2" DataSetName="frxPMI_SWITCH" Frame.Typ="0" Text="[frxPMI_SWITCH.&#34;SWITCH&#34;]"/>
+      <TfrxMemoView Name="frxSWITCHFOLIO" IndexTag="1" AllowVectorExport="True" Left="275.90569" Top="7.55906" Width="238.11039" Height="18.89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="FOLIO" DataSet="frxDBDataset3" DataSetName="frxSWITCH" Frame.Typ="0" Text="[frxSWITCH.&#34;FOLIO&#34;]"/>
+      <TfrxMemoView Name="frxSWITCHARTICULO" IndexTag="1" AllowVectorExport="True" Left="517.79561" Top="7.55906" Width="162.51979" Height="18.89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="ARTICULO" DataSet="frxDBDataset3" DataSetName="frxSWITCH" Frame.Typ="0" Text="[frxSWITCH.&#34;ARTICULO&#34;]"/>
+    </TfrxDetailData>
+  </TfrxReportPage>
+</TfrxReport>

@@ -1,0 +1,1623 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Condition="Exists('$(BDS)\bin\CodeGear.Deployment.targets')" Project="$(BDS)\bin\CodeGear.Deployment.targets"/>
+    <ProjectExtensions>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <PropertyGroup/>
+    <ItemGroup Condition="'$(Platform)'=='OSX64'"/>
+    <ItemGroup Condition="'$(Platform)'=='Win32'">
+        <DeployFile Include="$(SKIADIR)\Binary\Shared\Win32\sk4d.dll" Condition="'$(Config)'=='Debug' And '$(SKIADIR)'!=''">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>sk4d.dll</RemoteName>
+            <DeployClass>Skia</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(SKIADIR)\Binary\Shared\Win32\sk4d.dll" Condition="'$(Config)'=='Release' And '$(SKIADIR)'!=''">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>sk4d.dll</RemoteName>
+            <DeployClass>Skia</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndPmi\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndPmi\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiCamaras\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiCamaras\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleGabinetes\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleGabinetes\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndRadios\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndRadios\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleMiscelaneos\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleMiscelaneos\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndMiscelaneos\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndGabinetes\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndGabinetes\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndMiscelaneos\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleReportePMI\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleReportePMI\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiRadios\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiRadios\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\Pmi\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\Pmi\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndColores\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndColores\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiPostes\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiPostes\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\ImagePreview\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\ImagePreview\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndSplashScreen\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndSplashScreen\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Win32\Release\i2V.exe" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>i2V.exe</RemoteName>
+            <DeployClass>ProjectOutput</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndValidarCamaras\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndValidarCamaras\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiSwitches\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiSwitches\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleRadios\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleRadios\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndLocalidades\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndLocalidades\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiGabientes\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiGabientes\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndCamaras\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndCamaras\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndMunicipios\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndMunicipios\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndMain\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndMain\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModulePostes\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModulePostes\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndPmi2\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndPmi2\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiMiscelaneos\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiMiscelaneos\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Win32\Debug\i2V.exe" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>i2V.exe</RemoteName>
+            <DeployClass>ProjectOutput</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\bin\sk4d.dll" Condition="'$(Config)'=='Debug' And '$(SKIADIR)'==''">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>sk4d.dll</RemoteName>
+            <DeployClass>Skia</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\bin\sk4d.dll" Condition="'$(Config)'=='Release' And '$(SKIADIR)'==''">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>sk4d.dll</RemoteName>
+            <DeployClass>Skia</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleCamaras\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleCamaras\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndPostes\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndPostes\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModule\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModule\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleSwitches\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleSwitches\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModulePmi\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModulePmi\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndSwitches\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndSwitches\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndProveedores\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndProveedores\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\i2V\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\i2V\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+    </ItemGroup>
+    <ItemGroup Condition="'$(Platform)'=='Android64'"/>
+    <ItemGroup Condition="'$(Platform)'=='Android'"/>
+    <ItemGroup Condition="'$(Platform)'=='Win64'">
+        <DeployFile Include="$(BDS)\Redist\Win64\FireDACCommonDriver290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>FireDACCommonDriver290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\TeeUI9290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>TeeUI9290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndMiscelaneos\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndMiscelaneos\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndProveedores\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndProveedores\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModulePostes\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModulePostes\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiMiscelaneos\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiMiscelaneos\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndValidarCamaras\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndValidarCamaras\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\vcldb290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>vcldb290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndRadios\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndRadios\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleMiscelaneos\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleMiscelaneos\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Win64\Release\i2V.exe" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>i2V.exe</RemoteName>
+            <DeployClass>ProjectOutput</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\vclWinX290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>vclWinX290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleReportePMI\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleReportePMI\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\soaprtl290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>soaprtl290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\Pmi\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\Pmi\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\vclx290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>vclx290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndMain\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndMain\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndPmi\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndPmi\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Win64\Debug\i2V.exe" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>i2V.exe</RemoteName>
+            <DeployClass>ProjectOutput</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\vclactnband290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>vclactnband290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndCamaras\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndCamaras\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\i2V\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\i2V\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\vclimg290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>vclimg290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndGabinetes\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndGabinetes\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiPostes\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiPostes\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\vclie290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>vclie290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndPostes\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndPostes\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\xmlrtl290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>xmlrtl290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\rtl290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>rtl290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndSwitches\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndSwitches\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiRadios\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiRadios\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleRadios\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleRadios\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\FireDAC290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>FireDAC290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\vcl290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>vcl290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModulePmi\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModulePmi\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleCamaras\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleCamaras\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndSplashScreen\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndSplashScreen\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\Tee9290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>Tee9290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\Skia.Package.VCL290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>Skia.Package.VCL290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiCamaras\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiCamaras\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\inet290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>inet290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndLocalidades\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\dbrtl290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>dbrtl290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\ImagePreview\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\ImagePreview\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndLocalidades\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiGabientes\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiGabientes\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModule\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModule\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\Skia.Package.RTL290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>Skia.Package.RTL290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\vclFireDAC290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>vclFireDAC290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\FireDACCommon290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>FireDACCommon290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiSwitches\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndNuevoPmiSwitches\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(SKIADIR)\Binary\Shared\Win64\sk4d.dll" Condition="'$(Config)'=='Debug' And '$(SKIADIR)'!=''">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>sk4d.dll</RemoteName>
+            <DeployClass>Skia</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(SKIADIR)\Binary\Shared\Win64\sk4d.dll" Condition="'$(Config)'=='Release' And '$(SKIADIR)'!=''">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>sk4d.dll</RemoteName>
+            <DeployClass>Skia</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\FireDACIBDriver290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>FireDACIBDriver290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\vcltouch290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>vcltouch290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\bin64\sk4d.dll" Condition="'$(Config)'=='Debug' And '$(SKIADIR)'==''">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>sk4d.dll</RemoteName>
+            <DeployClass>Skia</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\bin64\sk4d.dll" Condition="'$(Config)'=='Release' And '$(SKIADIR)'==''">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>sk4d.dll</RemoteName>
+            <DeployClass>Skia</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\TeeDB9290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>TeeDB9290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndColores\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndColores\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\vcledge290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>vcledge290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\FireDACPgDriver290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>FireDACPgDriver290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleGabinetes\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleGabinetes\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleSwitches\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\DataModuleSwitches\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndMunicipios\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndMunicipios\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndPmi2\default.txaPackage" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="ModelSupport_i2V\WndPmi2\default.txaPackage" Condition="'$(Config)'=='Release'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>default.txaPackage</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\Redist\Win64\bindengine290.bpl" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>i2V\</RemoteDir>
+            <RemoteName>bindengine290.bpl</RemoteName>
+            <DeployClass>DependencyPackage</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+    </ItemGroup>
+    <ItemGroup Condition="'$(Platform)'=='OSXARM64'"/>
+    <ItemGroup Condition="'$(Platform)'=='iOSDevice64'"/>
+    <ItemGroup Condition="'$(Platform)'=='iOSSimARM64'"/>
+    <ItemGroup Condition="'$(Platform)'=='Win64x'"/>
+    <ItemGroup Condition="'$(Platform)'=='Linux64'"/>
+</Project>

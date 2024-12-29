@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="r14vg01mhss_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:i2V:DataModuleCamaras.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleCamaras.@unitclass.DMCamaras" />
+      <reference referencedUin="delphi:l_ast:src:i2V:DataModuleCamaras.@unitclass.DMCamaras" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:i2V:DataModuleCamaras.TDMCamaras">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleCamaras.TDMCamaras.FDConnection1" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleCamaras.TDMCamaras.FDPhysFBDriverLink1" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleCamaras.TDMCamaras.DSCamaraTipo" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleCamaras.TDMCamaras.CamaraTipoTable" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleCamaras.TDMCamaras.CamaraMarcaTable" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleCamaras.TDMCamaras.DSCamaraMarca" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleCamaras.TDMCamaras.CamaraModeloTable" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleCamaras.TDMCamaras.DSCamaraModelo" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleCamaras.TDMCamaras.CamaraTable" />
+      <reference referencedUin="delphi:e_field:src:i2V:DataModuleCamaras.TDMCamaras.DSCamara" />
+      <reference referencedUin="delphi:e_method:src:i2V:DataModuleCamaras.TDMCamaras.CamaraTipoTableBeforeDelete(Data.DB.TDataSet)" />
+      <reference referencedUin="delphi:e_method:src:i2V:DataModuleCamaras.TDMCamaras.CamaraMarcaTableBeforeDelete(Data.DB.TDataSet)" />
+      <reference referencedUin="delphi:e_method:src:i2V:DataModuleCamaras.TDMCamaras.CamaraModeloTableBeforeDelete(Data.DB.TDataSet)" />
+      <reference referencedUin="delphi:e_method:src:i2V:DataModuleCamaras.TDMCamaras.CamaraTableBeforeDelete(Data.DB.TDataSet)" />
+      <reference referencedUin="delphi:e_method:src:i2V:DataModuleCamaras.TDMCamaras.connectDB()" />
+      <reference referencedUin="delphi:e_method:src:i2V:DataModuleCamaras.TDMCamaras.disconnectDB()" />
+    </reference>
+  </view>
+</nodeSet>

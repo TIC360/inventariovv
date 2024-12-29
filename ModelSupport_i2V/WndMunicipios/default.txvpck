@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="nftjetir9xn_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:i2V:WndMunicipios.TFrmMunicipios">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.Panel4" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.Label13" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.DBEdit1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.Panel5" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.DBNavigator1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.DBGrid1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.Splitter1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.Label1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.DBEdit2" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.DBLookupComboBox1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.Label2" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.frxPDFExport1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.frxReport1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.frxDBDataset1" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.TFrmMunicipios.Button1" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMunicipios.TFrmMunicipios.DBNavigator1Click(System.TObject,Vcl.DBCtrls.TNavigateBtn)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMunicipios.TFrmMunicipios.DBNavigator1BeforeAction(System.TObject,Vcl.DBCtrls.TNavigateBtn)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMunicipios.TFrmMunicipios.SkSvg1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMunicipios.TFrmMunicipios.Button1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:i2V:WndMunicipios.TFrmMunicipios.FormClose(System.TObject,ref@System.UITypes.TCloseAction)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:i2V:WndMunicipios.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:i2V:WndMunicipios.@unitclass.FrmMunicipios" />
+      <reference referencedUin="delphi:l_ast:src:i2V:WndMunicipios.@unitclass.FrmMunicipios" />
+    </reference>
+  </view>
+</nodeSet>
