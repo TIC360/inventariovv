@@ -458,140 +458,72 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="ModelSupport_i2V\DataModuleCamaras\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModuleCamaras\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModuleCamaras\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModuleCamaras\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModuleGabinetes\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModuleGabinetes\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModuleGabinetes\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModuleGabinetes\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModuleMiscelaneos\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModuleMiscelaneos\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModuleMiscelaneos\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModuleMiscelaneos\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModulePmi\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModulePmi\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModulePmi\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModulePmi\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModulePostes\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModulePostes\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModulePostes\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModulePostes\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModuleRadios\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModuleRadios\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModuleRadios\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModuleRadios\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModuleReportePMI\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModuleReportePMI\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModuleReportePMI\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModuleReportePMI\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModuleSwitches\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModuleSwitches\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModuleSwitches\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModuleSwitches\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModule\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModule\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\DataModule\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\DataModule\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\ImagePreview\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\ImagePreview\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\ImagePreview\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\ImagePreview\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\Pmi\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\Pmi\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\Pmi\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\Pmi\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndCamaras\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndCamaras\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndCamaras\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndCamaras\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndColores\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndColores\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndColores\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndColores\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndGabinetes\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndGabinetes\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndGabinetes\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndGabinetes\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndLocalidades\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndLocalidades\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndLocalidades\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndLocalidades\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndMain\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndMain\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndMain\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndMain\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndMiscelaneos\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndMiscelaneos\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndMiscelaneos\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndMiscelaneos\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndMunicipios\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndMunicipios\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndMunicipios\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndMunicipios\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiCamaras\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiCamaras\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiCamaras\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiCamaras\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiGabientes\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiGabientes\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiGabientes\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiGabientes\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiMiscelaneos\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiMiscelaneos\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiMiscelaneos\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiMiscelaneos\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiPostes\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiPostes\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiPostes\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiPostes\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiRadios\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiRadios\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiRadios\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiRadios\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiSwitches\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiSwitches\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiSwitches\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndNuevoPmiSwitches\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndPmi2\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndPmi2\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndPmi2\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndPmi2\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndPmi\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndPmi\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndPmi\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndPmi\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndPostes\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndPostes\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndPostes\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndPostes\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndProveedores\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndProveedores\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndProveedores\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndProveedores\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndRadios\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndRadios\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndRadios\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndRadios\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndSplashScreen\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndSplashScreen\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndSplashScreen\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndSplashScreen\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndSwitches\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndSwitches\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndSwitches\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndSwitches\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndValidarCamaras\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndValidarCamaras\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\WndValidarCamaras\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\WndValidarCamaras\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\i2V\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\i2V\default.txaPackage" Configuration="Debug" Class="ProjectFile"/>
-                <DeployFile LocalName="ModelSupport_i2V\i2V\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="ModelSupport_i2V\i2V\default.txaPackage" Configuration="Release" Class="ProjectFile"/>
                 <DeployFile LocalName="Win32\Debug\i2V.exe" Configuration="Debug" Class="ProjectOutput"/>
                 <DeployFile LocalName="Win32\Release\i2V.exe" Configuration="Release" Class="ProjectOutput"/>
@@ -1542,7 +1474,7 @@
                 <Platform value="Win32">True</Platform>
                 <Platform value="Win64">True</Platform>
             </Platforms>
-            <ModelSupport>True</ModelSupport>
+            <ModelSupport>False</ModelSupport>
         </BorlandProject>
         <ProjectFileVersion>12</ProjectFileVersion>
     </ProjectExtensions>
